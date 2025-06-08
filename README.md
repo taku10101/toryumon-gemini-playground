@@ -5,7 +5,13 @@ npm i
 cp .env.example .env
 ```
 
-.env ファイルに gemini の api key を入れる
+ .env ファイルに gemini の api key を入れる
+
+
+
+    https://aistudio.google.com/apikey?hl=ja
+
+
 サーバーを起動
 
 ```bash
