@@ -8,7 +8,8 @@ export default function Home() {
           "use server";
           const prompt = formData.get("prompt");
           if (typeof prompt === "string") {
-            await GeminiAPI(prompt);
+            const response = await GeminiAPI(prompt);
+            console.log(response);
           }
         }}
       >
